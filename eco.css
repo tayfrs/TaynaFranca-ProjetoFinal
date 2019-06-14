@@ -1,0 +1,399 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+#logo h1{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: white;
+}
+#header{
+	padding: 2em 0em 0em 0em;
+	background:url('images/folhas.jpg');
+	height:280px;	
+}
+
+#logo{
+	padding: 5em 0em;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	color:#5faf63;
+}
+	
+#logo h1{
+	font-size: 3.5em;
+	font-family: 'Roboto', sans-serif;	
+	color: #5faf63;
+	letter-spacing: 0.15em;
+}
+	
+#logo a{
+	color: white;
+}
+	
+#logo span{
+	letter-spacing: 0.10em;
+	font-size: 0.90em;
+	color: white;
+}
+
+/*Menu*/
+#menu {
+  background: #5faf63;
+  margin: 0;
+  width: auto;
+  padding: 0px 0px 0px 470px;
+  display: block;
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#menu:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#menu ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  background: #5faf63;
+}
+
+#menu ul li ul {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+}
+
+#menu ul li ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+  width: 170px;
+  padding: 11px 10px 11px 20px;
+}
+
+#menu ul li ul li:hover  a{
+	color: #4cb6ea;
+}
+
+#menu  ul  li {
+  float: left;
+}
+
+#menu  ul  li  a {
+  color: #ffffff;
+  padding: 15px 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px;
+  z-index: 2;
+  position: relative;
+}
+
+#menu  ul  li:hover  ul {
+  left: 0;
+}
+
+/*Conteudo primeira pagina*/
+#ecod{
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.5);
+	padding:2em 0 0 0;
+}
+* {
+	
+	box-sizing: border-box;
+}
+
+.dia p{
+	font-size: 13pt;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.65;
+	font-weight: 300;
+}
+
+
+.dia h3 {
+	font-size: 1.35rem;
+	color: #1e1f23;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	line-height: 1.65;
+}
+
+.imag img {
+	display: block;
+}
+
+.quadro {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.quadro > * {
+	width: 50%;
+}
+
+.quadro .dia {
+	padding: 2rem;
+}
+
+.quadro .imag {
+	margin: 0;
+}
+
+.quadro .imag img {
+	width: 100%;
+}
+
+.quadro.preto  {
+	background: #1e1f23;
+	color: rgba(255, 255, 255, 0.25);
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: right;
+}
+
+	
+.quadro.preto  h3 {
+color: #FFF;
+}
+
+.quadro.preto .imag {
+order: 2;
+}
+
+#ecod > .dia {
+	margin: 0 auto;
+	width: 80rem;
+	max-width: 90%;
+	margin-bottom: 2rem;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+/*Conteudo segunda pagina (Beneficios) */
+
+#beni{
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.5);
+}
+* {
+	
+	box-sizing: border-box;
+}
+
+.florest p{
+	font-size: 13pt;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.65;
+	font-weight: 300;
+}
+
+
+.florest h3 {
+	font-size: 1.35rem;
+	color: #1e1f23;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	line-height: 1.65;
+	text-align:center;
+	padding:0 0 1em 0;
+}
+
+.imag3 img {
+	display: block;
+}
+
+.folha {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.folha > * {
+	width: 50%;
+}
+
+.folha .florest {
+	padding: 2rem;
+}
+
+.folha .imag3 {
+	margin: 0;
+}
+
+.folha .imag3 img {
+	width: 100%;
+}
+
+.folha.florest  {
+	background: #1e1f23;
+	color: rgba(255, 255, 255, 0.25);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: right;
+}
+
+	
+.folha.florest  h3 {
+color: #FFF;
+}
+
+.folha.florest .imag3 {
+order: 2;
+}
+
+#beni > .florest {
+	margin: 0 auto;
+	width: 80rem;
+	max-width: 90%;
+	margin-bottom: 2rem;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*Conteudo terceira pagina (inspirações) */
+.galeria h2  {
+	color: #22313F;
+	text-decoration: none;
+	font-size: 1.75em;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0 0 1em 0;
+	font-family: 'Nunito Sans', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:6px;
+}
+
+
+	@keyframes gallery {
+		100% {
+			opacity: 1;		}
+	}
+
+.galeria {
+	padding: 3.5em;
+	position: relative;
+}
+
+.galeria header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.galeria .espaco {
+	justify-content: center;
+}
+
+.galeria .fot {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.galeria .fot .midia {
+	animation: gallery 0.75s ease-out 0.4s forwards;
+	margin-bottom: 0;
+	opacity: 0;
+	position: relative;
+	width: 25%;
+}		
+
+.galeria .midia img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.galeria .midia:hover img {
+	transform: scale(1.075);
+}
+
+/* Rodape de todas as paginas*/
+.imagem {
+	border: 0;
+	display: inline-block;
+	position: relative;
+	box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagem:hover{
+	background-color: #808080;
+}
+
+.imagem.redondo img {
+	width: 100%;	
+}
+
+.imagem.ajuste {
+	border-radius: 100%;
+}
+
+.imagem.ajuste img {
+	border-radius: 100%;
+}
+
+.rodape {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center ;
+		text-align:center;
+		font-family: 'Nanum Gothic', sans-serif;
+		color: #333333;
+	}
+
+.rodape.rodape-3 .alinhar {
+	width: 10%;
+	padding: 10px;
+}
+
+ul.icons li {
+	display: inline-block;
+	padding: 0 2em 0 0;
+}
+
+#footer .icons {
+	margin: 0 0 2em 0;
+	padding: 0;
+	text-align: center;
+}
+
+#footer .icons a img {
+	border-radius: 100%;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 4px #fff, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+	display: block;
+	text-align: center;
+	width: 3em;
+}
+
+#footer img:hover{
+	background-color: #808080;
+}
+	

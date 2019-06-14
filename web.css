@@ -1,0 +1,569 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, div, a, img, section{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	padding: 2em 0em 0em 0em;
+	background:url('images/city.jpg');
+	height:280px;
+	background-position:0px 580px;
+}
+
+#logo{
+	padding: 3em 0em;
+	text-align:center;
+	font-family:'Oswald', sans-serif;
+	color:black;
+}
+	
+#logo h1{
+	font-size: 3.5em;
+	font-family:'Oswald', sans-serif;
+	color: black;
+	letter-spacing: 0.15em;
+}
+	
+#logo a{
+	color: black;
+}
+	
+#logo span{
+	letter-spacing: 0.10em;
+	font-size: 0.90em;
+	color: black;
+}
+
+/*Menu*/
+#menu {
+  background:Black;
+  margin: 0;
+  width: auto;
+  padding: 0px 0px 0px 470px;
+  display: block;
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#menu:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#menu ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  background:black;
+}
+
+#menu ul li ul {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+}
+
+#menu ul li ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+  width: 170px;
+  padding: 11px 10px 11px 20px;
+}
+
+#menu ul li ul li:hover  a{
+	color: #4cb6ea;
+}
+
+#menu  ul  li {
+  float: left;
+}
+
+#menu  ul  li  a {
+  color: #ffffff;
+  padding: 15px 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px;
+  z-index: 2;
+  position: relative;
+}
+
+#menu  ul  li:hover  ul {
+  left: 0;
+}
+/*index*/
+.index {
+	margin: 0px;
+	padding: 0px;
+	background-image:url('images/papel.png');
+}
+
+
+#cima{
+	padding: 5em 0em 0em 0em;
+	background:url('images/header.png');
+	height:410px;
+}
+
+#world{
+	padding: 2.0em 23em 0em 0em;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	color:#ffff33;
+}
+	
+#world h1{
+	font-size: 3.5em;
+	font-family: 'Roboto', sans-serif;	
+	color: #ffff1a;
+	letter-spacing: 0.15em;
+}
+	
+#world a{
+	color: white;
+}
+	
+#world span{
+	letter-spacing: 0.10em;
+	font-size: 0.90em;
+	color: white;
+}
+
+/*Menu*/
+#imenu {
+  background:black;
+  margin: 0;
+  width: auto;
+  padding: 0px 0px 0px 870px;
+  display: block;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+#imenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#imenu:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#imenu ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+}
+
+#imenu ul li a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  background: black;
+}
+
+#imenu ul li ul {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+}
+
+#imenu ul li ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+  width: 170px;
+  padding: 11px 10px 11px 20px;
+}
+
+#imenu ul li ul li:hover  a{
+	color: #ffff1a;
+}
+
+#imenu  ul  li {
+  float: left;
+}
+
+#imenu  ul  li  a {
+  color: #ffffff;
+  padding: 15px 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px;
+  z-index: 2;
+  position: relative;
+}
+
+#imenu  ul  li:hover  ul {
+  left: 0;
+}
+
+/*Apresentação*/
+.apresentacao{
+	display:flex;
+	text-align:center;
+	align-content:space-around;
+	
+	width:90%;
+	align-items:center;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.texto{
+	font-size:1.2rem;
+	padding:12px 12px 0 0px;
+	width:58%;
+}
+.foto{
+	padding:60px 12px 0 12px;
+}
+
+/*Fotos da tayna no index*/
+.pisciana h2  {
+	color: #22313F;
+	text-decoration: none;
+	font-size: 1.75em;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0 0 1em 0;
+	font-family: 'Nunito Sans', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:6px;
+}
+
+
+	@keyframes  gallery {
+		100% {
+			opacity: 1;		}
+	}
+
+.pisciana {
+	padding: 3.5em;
+	position: relative;
+}
+
+.pisciana header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.pisciana .tay {
+	justify-content: center;
+}
+
+.pisciana .lua {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.pisciana .lua .claro {
+	animation: gallery 0.75s ease-out 0.4s forwards;
+	margin-bottom: 0;
+	opacity: 0;
+	position: relative;
+	width: 25%;
+}		
+
+.pisciana .claro img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.pisciana .claro:hover img {
+	transform: scale(1.075);
+}
+
+/*Conteudo da primeira pagina de web service*/
+	
+.explicacao p {
+	margin: 0 0 2em 3em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.col h3{
+	font-weight: 700;
+	line-height: 1.5;
+	margin: 1.5em 0 1em 2em;
+	font-size: 1.75em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+	
+.estilo {
+	display:flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:30px;
+	width: 70em;
+}
+
+.estilo.estilo-2 .col {
+	width: 30%;
+}
+			
+.estilo.estilo-2 .col2 {
+	width: 66%;
+}
+
+
+.image {
+	
+	display: inline-block;
+	position: relative;
+	
+}
+
+.image img {
+	display: block;
+	height:420px;
+	width:420px;
+}
+	
+	
+.explicacao {
+	padding: 0 0 0 0;
+	position: relative;
+	font-size: 13pt;
+}
+
+.explicacao.parte1 {
+	background-color: white;
+	color: black;
+}
+
+.explicacao.parte1  h3 {
+	color: black;
+}
+.explicacao.parte2  h3 {
+	color: white;
+}
+			
+.parte2 {
+	background-color:#a6a6a6;
+	color: white;
+}
+
+/*Conteudo da segunda pagina de web service (SOAP e REST)*/
+#soap{
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.5);
+}
+* {
+	
+	box-sizing: border-box;
+}
+
+.rest p{
+	font-size: 13pt;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.65;
+	font-weight: 300;
+}
+
+
+.rest h3 {
+	font-size: 1.35rem;
+	color: #1e1f23;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	line-height: 1.65;
+	text-align:center;
+}
+
+.imag4 img {
+	display: block;
+	padding:0 0 0 2em;
+}
+
+.lousa {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.lousa > * {
+	width: 50%;
+}
+
+.lousa .rest {
+	padding: 3rem;
+}
+
+.lousa .imag4 {
+	margin: 0;
+}
+
+.lousa .imag4 img {
+	width: 100%;
+}
+
+.lousa.rest  {
+	background: #1e1f23;
+	color: rgba(255, 255, 255, 0.25);
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: right;
+}
+
+	
+.lousa.rest  h3 {
+color: #FFF;
+}
+
+.lousa.imag4 {
+order: 2;
+}
+
+#soap > .rest {
+	margin: 0 auto;
+	width: 80rem;
+	max-width: 90%;
+	margin-bottom: 2rem;
+}
+
+/*Conteudo da terceira pagina de web service (beneficios)*/
+
+.beneficios{
+	width: 1200px;
+	margin: 0px auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #4E4D4D;
+}
+
+.title{
+	text-align: center;
+	font-size: 2em;
+	padding:2em 0 1em 0;
+}
+	
+.title h2{
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #3f3f3f;
+	padding: 0 0 0 0;
+}
+	
+#web{
+	float: left;
+	width: 588px;
+	text-align:left;
+	padding:1em 0 0 0;
+	line-height: 160%;
+}
+	
+#direita{
+	float: right;
+	width: 588px;
+	text-align:left;
+	padding:1em 0 0 0;
+	line-height: 160%;
+}
+
+#rosa{
+	float: right;
+	width: 588px;
+}
+
+/* RodapĂ© de todas as paginas*/
+
+.imagem {
+		border: 0;
+		display: inline-block;
+		position: relative;
+		box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagem:hover{
+	background-color: #808080;
+}
+
+.imagem.redondo img {
+	width: 100%;	
+}
+
+.imagem.ajuste {
+	border-radius: 100%;
+}
+
+.imagem.ajuste img {
+	border-radius: 100%;
+}
+
+.rodape {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center ;
+		text-align:center;
+		font-family: 'Nanum Gothic', sans-serif;
+		color: #333333;
+	}
+
+.rodape.rodape-3 .alinhar {
+	width: 10%;
+	padding: 10px;
+}
+
+ul.icons li {
+	display: inline-block;
+	padding: 0 2em 0 0;
+}
+
+#footer .icons {
+	margin: 0 0 2em 0;
+	padding: 0;
+	text-align: center;
+}
+
+#footer .icons a img {
+	border-radius: 100%;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 4px #fff, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+	display: block;
+	text-align: center;
+	width: 3em;
+}
+
+#footer img:hover{
+	background-color: #808080;
+}

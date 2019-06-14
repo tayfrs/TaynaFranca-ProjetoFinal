@@ -1,0 +1,113 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Web Service</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Tayna França"/>
+	<meta name="description" content="Projeto de Web site web service e EcoDesign"/>
+	<meta name="keywords" content="site, web, servce, eco, Design"/>
+	<meta name="generator" content="notpad++"/>
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon2.0.png"/>
+	<link rel="stylesheet" type="text/css" href="web.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Oswald|Poppins|Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<h1>Web Service</h1>
+			<span>Tayna França <a href="https://www.linkedin.com/in/tayna-souza-3544aa14b/"  target="_blank">Linkedin</a></span>
+		</div>
+	</div>
+	
+	<!-- Menu -->
+	<div id='menu'>
+		<ul>
+			<li><a href='index.html'><span>HOME</span></a></li>
+			<li><a href='#'><span>WEB WERVICE</span></a>
+				<ul>
+					<li><a href='webservice.html'><span>O que é?</span></a></li>
+					<li><a href='soap.html'><span>SOAP e REST</span></a></li>
+					<li><a href='beneficios.html'><span>Benefícios</span></a></li>
+				</ul>
+			</li>
+			<li><a href='#'><span>ECO DESIGN</span></a>
+				<ul>
+					<li><a href='ecodesign.html'><span>O que é?</span></a></li>
+					<li><a href='ecobene.html'><span>Benefícios</span></a></li>
+					<li><a href='inspiracoes.html'><span>Inspirações</span></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>	
+	
+	<!-- Conteudo -->
+	<section id="soap">
+		<div class="rest">
+			<div class="lousa">
+				<div class="imag4">
+				<img src="images/tec01.jpg" title="tecnologia" alt="Tecnologia fundo" />
+				<img src="images/tec02.jpg" title="tecnologia" alt="Tecnologia fundo" />
+				<img src="images/tec03.jpg" title="tecnologia" alt="Tecnologia fundo" />
+				<img src="images/tec04.jpg" title="tecnologia" alt="Tecnologia fundo" />
+				</div>
+				<div class="rest">
+					<h3>SOAP</h3>
+					<p>SOAP é um protocolo de transferência de mensagens em formato XML para uso em ambientes distribuídos. O padrão SOAP funciona como um tipo de framework que permite a interoperabilidade entre diversas plataformas com mensagens personalizadas.</p>
+					<p>Aplicando este padrão em Web Services, geralmente usa-se o WSDL para descrever a estrutura das mensagens SOAP e as ações possíveis em um endpoint.
+					Uma das maiores vantagens disso é que várias linguagens e ferramentas conseguem ler e gerar mensagens facilmente. Várias linguagens de programação permitem a geração de objetos de domínio, Stubs e Skeletons a partir da definição do WSDL, permitindo a comunicação remota via RPC através de chamadas a métodos remotos, inclusive com argumentos complexos, como se fossem chamadas locais.
+					O problema desse padrão, é que ele adiciona um overhead considerável, tanto por ser em XML quanto por adicionar muitas tags de meta-informação. Além disso, a serialização e desserialização das mensagens pode consumir um tempo considerável.
+					</p>
+					<h3>REST</h3>
+					<p>REST é outro um protocolo de comunicação, baseado no protocolo de hipermídia HTTP. Porém ele não impõe restrições ao formato da mensagem, apenas no comportamento dos componentes envolvidos.</p>
+					<p>A maior vantagem do protocolo REST é sua flexibilidade. O desenvolvedor pode optar pelo formato mais adequado para as mensagens do sistema de acordo com sua necessidade específica. Os formatos mais comuns são JSON, XML e texto puro, mas em teoria qualquer formato pode ser usado.</p>
+					<p>Isso nos leva a outra vantagem: quase sempre Web Services que usam REST são mais "leves" e, portanto, mais rápidos.</p>
+					<p>O problema com o REST pode surgir justamente por causa de suas vantagens. Como a definição do corpo de dados fica totalmente a cargo do desenvolvedor, os problemas de interoperabilidade são mais comuns.</p>
+					<h3>SOAP ou REST?</h3>
+					<p><b>Aviso: Esta é uma opinião pragmática.</b></p>
+					<p>Em geral, SOAP é uma boa opção para instituições com padrões rígidos e ambientes complexos (várias plataformas e sistemas). Muitas ferramentas corporativas (como ESB) tiram vantagem do padrão e possibilitam filtrarem, enfileiramento, classificação e redirecionamento das mensagens trocadas entre sistemas.
+					No restante, para uso no dia-a-dia, não vejo motivos concretos para não usar REST e JSON. Praticamente todas as plataformas e linguagens modernas que conheço suportam esses conceitos e a solução final é muito mais simples do que o equivalente em SOAP.
+					</p>
+					<p>Além disso, integrações com alto volume de requisições são inviáveis em SOAP. REST é capaz de atender volume e complexidade sem dificuldades, exigindo apenas um mínimo de experiência do desenvolvedor para estabelecer e reforçar os padrões adequados</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Rodapé das três paginas -->
+	<img src="images/seta.png" title="Seta" alt="seta"  height="36px"/>
+	<section>
+		<div class="rodape rodape-3">
+			<div class="alinhar">
+				<div class="imagem ajuste redondo">
+					<a href="index.html" target="_blank"><img src="images/tayna.png" title="Tayna França" alt="Tayna França"/></a>
+				</div>
+				<p>Tayna França</p>
+			</div>
+			<div class="alinhar">
+				<div class="imagem ajuste redondo">
+					<a href="webservice.html" target="_blank"><img src="images/web.jpg" title="Web Service" alt="Web Service"/></a>
+				</div>
+				<p>Web Service</p>
+			</div>
+			<div class="alinhar">
+				<div class="imagem ajuste redondo">
+					<a href="ecodesign.html" target="_blank"><img src="images/ecodesign.jpg" title="Eco Design" alt="Eco Design"/></a>
+				</div>
+				<p>Eco Design. </p>
+			</div>
+		</div>
+	</section>
+		
+	<footer id="footer">
+			<ul class="icons">
+				<li><a href="https://www.instagram.com/__tayna/?hl=pt-br" target="_blank"> <img src="images/insta.png" title="Instagram" alt="Instagram"/></a></li>
+				<li><a href="https://myaccount.google.com/?utm_source=OGB&tab=ok&utm_medium=act" target="_blank"> <img src="images/google.png" title="Google" alt="Google"/></a></li>
+				<li><a href="https://www.facebook.com/tayna.frs" target="_blank"> <img src="images/face.png" title="facebook" alt="facebook"/></a></li>
+				<li><a href="https://twitter.com/tay_fs" target="_blank"> <img src="images/twitter.png" title="Twitter" alt="Twitter"/></a></li>
+			</ul>
+	</footer>
+</body>
+</html>
